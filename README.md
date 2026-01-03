@@ -31,9 +31,22 @@ Metinleri bilgisayarın anlayacağı sayılara çevirmek için **TF-IDF (Term Fr
 
 ### 4. Web Arayüzü (Deployment)
 * Model, son kullanıcının rahatça test edebilmesi için **Streamlit** kütüphanesi ile modern bir web arayüzüne dönüştürüldü.
-* Arka plan ve yazı renkleri CSS ile özelleştirilerek "Dark Mode" görünümü kazandırıldı.
+
 
 ---
+### ⚠️ Önemli  `requirements.txt`
+Bunu yapmak çok kolay:
+1.  Jupyter Notebook'un olduğu klasörde yeni bir metin belgesi aç.
+2.  Adını `requirements.txt` yap.
+3.  İçine şunları yapıştır ve kaydet:
+
+```text
+streamlit
+pandas
+numpy
+scikit-learn
+nltk
+joblib
 
 ## 🛠️ Kurulum ve Çalıştırma
 
@@ -43,3 +56,4 @@ Projeyi kendi bilgisayarınızda çalıştırmak için şu adımları izleyin:
    ```bash
    git clone [https://github.com/KULLANICI_ADIN/twitter-duygu-analizi.git](https://github.com/KULLANICI_ADIN/twitter-duygu-analizi.git)
    cd twitter-duygu-analizi
+
